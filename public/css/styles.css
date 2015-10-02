@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* line 18, stdin */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,74 +21,62 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
+
 /* HTML5 display-role reset for older browsers */
+/* line 28, stdin */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
+
+/* line 31, stdin */
 body {
-  line-height: 1;
-}
+  line-height: 1; }
+
+/* line 34, stdin */
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
+
+/* line 37, stdin */
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
+
+/* line 41, stdin */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
+
+/* line 45, stdin */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-//variables
-
-$blue : blue;
-$warmer : #FCA10C;
-$font : 'Helvetica';
-
+/* line 56, stdin */
 #mainTitle {
-
   display: block;
   text-align: center;
   margin-top: 50px;
   font-size: 50px;
-  font-family: $font;
+  font-family: "Helvetica"; }
 
-}
-
+/* line 66, stdin */
 .newButton {
-
   width: 150px;
   height: 100px;
-  background-color: $blue;
+  background-color: blue;
   display: block;
   margin: 0 auto;
   margin-top: 250px;
-  font-family: $font;
+  font-family: "Helvetica";
   color: white;
   cursor: pointer;
-  border: 0px;
-
-  &:hover {
-
-    background-color: $warmer;
+  border: 0px; }
+  /* line 79, stdin */
+  .newButton:hover {
+    background-color: #FCA10C;
     width: 175px;
-    height: 125px;
-
-    &:after {
-
-      content: "Give Me Widgets!";
-
-    }
-
-  }
-
-}
-
+    height: 125px; }
+    /* line 85, stdin */
+    .newButton:hover:after {
+      content: "Give Me Widgets!"; }
